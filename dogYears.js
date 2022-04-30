@@ -12,6 +12,9 @@ earlyYears *= 10.5;
 //laterYears is equal to the myAge variable minus two
 let laterYears = myAge - 2;
 
+//after the 2 years, then multiply by 4 
+laterYears *= 4; 
+
 //to obtain dog years I add the two variables together
 myAgeInDogYears = earlyYears + laterYears;
 
