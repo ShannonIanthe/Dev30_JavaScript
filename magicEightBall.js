@@ -28,7 +28,10 @@ if (randomNumber === 1) {
 } else if (randomNumber === 7) {
     console.log('Outlook not so good');
 } else {
+    //if the random number is 0
     console.log('Signs point to yes')
 }
+
+//if the random number is 0
 
 console.log(eightBall);
