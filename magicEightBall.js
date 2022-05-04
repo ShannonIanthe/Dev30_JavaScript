@@ -7,7 +7,7 @@ if (userName !== ' ') {
     console.log('Hello!')
 }
 
-const userQuestion = 'What is happiness?';
+const userQuestion = 'Am I amazing?';
 console.log(`${userName} wants to know ${userQuestion}`);
 
 const randomNumber = Math.floor(Math.random() * 8);
