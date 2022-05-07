@@ -11,9 +11,9 @@ if (age > 18 && registrationEarly === true) {
 } else if ( age > 18 && registrationEarly !== true) {
     console.log(`Late adults run at 11:00am. ${raceNumber}`)
 } else if (age < 18) {
-    console.log(`Youth registrants run at 12:30 pm (regardless of registration). ${raceNumber}`)
+    console.log(`Youth registrants run at 12:30pm (regardless of registration). ${raceNumber}`)
 } else {
-    console.log(`All others will race at 12.30 pm ${raceNumber}`);
+    console.log(`All others will race at 12.30pm ${raceNumber}`);
 }
 
 
