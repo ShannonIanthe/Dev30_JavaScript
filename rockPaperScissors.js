@@ -10,16 +10,23 @@ var getUserChoice = function(userInput) {
 var determineWinner = function(userChoice, computerChoice) {
     if ( userChoice === computerChoice) {
         return 'Game was a tie.'
-    } else if ( userChoice === 'rock' && computerChoice === 'paper') {
-        return 'Computer Won'
-    } else if (userChoice === 'paper' && computerChoice === 'scissors' | 'rock') {
-        return 'Computer Won'
+    } else if (userChoice === 'paper' && computerChoice === 'scissors') {
+        return 'Computer Won!'
     } else if (userChoice === 'scissors' && computerChoice === 'rock') {
         return 'Computer Won'
-    } else if (userChoice === 'scissors' && computerChoice === 'paper') {
-        return 'You won'
-    } else if ()
+    } else if (userChoice === 'rock' && computerChoice === 'paper') {
+        return 'Computer won'
+    } else {
+        return 'You won!'
+    }
 }
 
-//var answer = getUserChoice('scissors');
-//console.log(answer);
+var playGame = function() {
+    userChoice === getUserChoice('rock');
+    console.log(userChoice);
+    computerChoice === getComputerChoice('scissors')
+    console.log(computerChoice);
+    console.log(determineWinner(userChoice, computerChoice));
+}
+
+playGame();
