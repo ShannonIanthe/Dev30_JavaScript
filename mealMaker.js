@@ -27,6 +27,17 @@ return dishes[randomDish];
 }
 
 
-//Step 8
+//Step 8: Create a new function
 
-console.log(dishes);
+generateRandomMeal = function() {
+    const appetizers = getRandomDishFromCourse();
+    const main = courseName;
+};
+
+//Step 9: Create a menu
+menu.addDishToCourse(appetizers, mains, desserts);
+
+//Step 10: generate a meal
+const meal = generateRandomMeal();
+
+console.log(meal);
