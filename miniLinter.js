@@ -29,19 +29,28 @@ const countOverUsedWords = betterWords.forEach(function (word) {
   }
 });
 
-/*
+
+//Step 5: Count how many sentences there are
+const finishedStory = /[.!?]/;
+const numOfSentences = story.split(finishedStory);
+//console.log(numOfSentences.length - 1);
+
+
+//Step 6: Log items to console
+//Word Count
+console.log(storyWords.length);
+
+//Sentence Count
+console.log(numOfSentences.length - 1);
+
+//Overused words Count
+console.log(overusedWords);
 console.log(`You have used the word really ${really} times.`);
 console.log(`You have used the word very ${very} times`);
 console.log(`You have used the word basically ${basically} times`);
-*/
 
-//Step 5: Count how many sentences there are
-//not working
-let totalSentences = 0;
-let sentenceCounter = betterWords.forEach(function (sentences) {
-  if (sentences === "!" || ".") {
-    totalSentences += 1;
-  } 
-});
+//Step 7: Console log array as a single string
+console.log(betterWords.join(" "));
 
-console.log(totalSentences);
+
+
