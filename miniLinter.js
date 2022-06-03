@@ -101,8 +101,6 @@ let story =
     }).join(" ");
   };
 
- 
-
   const getOverusedWordCount = function (story, overusedWords) {
     let storyWords = story.split(' ');
 
@@ -113,8 +111,6 @@ let story =
       return acc;
     }, 0);
   }
-
-
 
  const getSentenceCount = function (story) {
    let storyWords = story.split(' ');
